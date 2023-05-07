@@ -1,0 +1,93 @@
+/******************************************************************************
+
+Welcome to GDB Online.
+  GDB online is an online compiler and debugger tool for C, C++, Python, PHP, Ruby, 
+  C#, OCaml, VB, Perl, Swift, Prolog, Javascript, Pascal, COBOL, HTML, CSS, JS
+  Code, Compile, Run and Debug online from anywhere in world.
+
+*****************************************************************************
+* /*
+weather app
+
+Name:R.Swathi
+College name:Vivekananda college of engineering for women,tiruchengode
+
+used data:
+1)email
+2)location
+3)weatherr report timing(today/tomorrow/yesterday/weekly report)
+4)temperature and climate
+
+Methods used
+1)switch case
+2)
+*/
+
+#include<iostream>
+using namespace std;
+
+int main()
+{
+string email:
+string location:
+int choice:
+cout<<"!!*!!WEATHER APP!!*!!"<<endl;
+cout<<"Enter your email Id ;"<<endl;
+cin>>email ;
+cout<<"Enter your current location:"<<endl;
+cin>>location;
+
+cout<<"1)today\n2)tomorrow\n3)yesterday\n4)entire week \n5)rainfall in this week \n6)heavy sun in this week "<<endl;
+cout<<"Enter the period for when you want the report:"<<endl;
+cin>>choice;
+switch(choice)
+{
+case1:
+{
+cout<<"mostly cloudy"<<endl;
+cout<<"temperature:25'c "<<endl;
+cout<<"you can chill out WELL!!"<<endl;
+break;
+}
+case2
+{
+cout<<"high rainfall"<<endl;
+cout<<"temperature:22'c"<<endl;
+cout<<"better you can bring an umbrella"<<endl;
+break;
+}
+case3:
+{
+cout<<"heavy sun"<<endl;
+cout<<"temperature:31'c"<<endl; 
+cout<<"you have been tired"<<endl;
+break;
+}
+case4:
+{
+cout<<"monday--rainfall(25'c)\ntuesday--cloudy(28'c)\nwednesday--sunny(30'c)\nthursday--heavy sun(32'c)\nfriday--windy(26'c)\nsaturday--storm(24'c)\nsunday--light rain(26'c)"<<endl;
+cout<<"according to the above report ##^...^plan your schedule "<<endl;
+break;
+}
+case5:
+{
+cout<<"monday# wednesday# saturday#"<<endl;
+cout<<"be safe and secure while travelling"<<endl;
+break;
+}
+case6:
+{
+cout<<"tuesday# friday# sunday#"<<endl;
+cout<<"mostly avoid to go out"<<endl;
+break;
+}
+default:
+{
+cout<<"**choose some other period **";
+break;
+}}
+cout<<"\n THANK YOU!!VISIT AGAIN"<<endl;
+return 0;
+}
+
+
